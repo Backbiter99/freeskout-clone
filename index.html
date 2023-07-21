@@ -12,47 +12,58 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/kute.js/2.1.2/kute.min.js"
+      integrity="sha512-uTe+wUbchHcZHwvZwpVt4ve3FdUJPse9iC56mh6pZkxHccXx2vaSYyjlWV/Mv0NTcvGYkGZvCi1D/KZJ7qS2uQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <header>
       <figure>
-        <a href="https://www.freeskout.com/"
-          ><img
-            class="brand-logo"
-            src="https://www.freeskout.com/img/freeskout.png"
-            alt="freeskout-logo"
-        /></a>
+        <a href="https://www.freeskout.com/">
+          <img class="brand-logo" src="https://www.freeskout.com/img/freeskout.png" alt="freeskout-logo" />
+        </a>
       </figure>
-      <div class="header-links">
+      <nav class="header-links">
         <a href="http://freeskout.com/brands">BRANDS</a>
         <a href="https://www.freeskout.com/influencers/">INFLUENCERS</a>
         <a href="https://www.freeskout.com/brands/#slide-section">PRICING</a>
         <a href="https://www.freeskout.com/blogs/">BLOGS</a>
         <a href="https://www.freeskout.com/brands/#Contact">CONTACT</a>
-      </div>
+      </nav>
     </header>
     <main>
-      <section>
+      <section class="info">
         <article>
-          <p>Discover. Connect. Collaborate.</p>
+          <p class="heading">Discover. Connect. Collaborate.</p>
         </article>
         <article>
-          <p>An ecosystem for Social media influencers and Brands.</p>
+          <p class="text">An ecosystem for Social media influencers and Brands.</p>
         </article>
-        <article>
-          <button>I'M AN INFLUENCER</button>
-          <button>I'M A BRAND</button>
+        <article class="btn-toggle">
+          <a href="https://www.freeskout.com/influencers" class="custom-link">I'M AN INFLUENCER</a>
+          <a href="https://www.freeskout.com/brands" class="custom-link">I'M A BRAND</a>
         </article>
       </section>
-      <section>
-        <figure>
-          <img
-            src="https://www.freeskout.com/img/brandFolderImgs/ios15-iphone12-pro-move-from-android-hero-removebg-preview.png"
-            alt="mobile-phone"
-          />
-        </figure>
+      <section class="image">
+        <img class="mobile-phone" src="https://www.freeskout.com/img/top-influencer-profiles/top-3.png" alt="mobile-phone" />
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <!-- Footer content here -->
+      <div class="waveWrapper waveAnimation">
+        <div class="waveWrapperInner bgTop">
+          <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png');"></div>
+        </div>
+        <div class="waveWrapperInner bgMiddle">
+          <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png');"></div>
+        </div>
+        <div class="waveWrapperInner bgBottom">
+          <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png');"></div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
