@@ -37,7 +37,7 @@ nav.header-links {
 nav.header-links a {
   /* Header link styles */
   text-decoration: none;
-  color: rgba(240, 248, 255, 0.445);
+  color: rgba(240, 248, 255, 0.801);
   font-size: larger;
   padding: 10px 15px;
   border-radius: 5%;
@@ -45,7 +45,7 @@ nav.header-links a {
 
 nav.header-links a:hover {
   /* Hover effect for header links */
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(189, 184, 184, 0.918);
 }
 
 main {
@@ -215,7 +215,7 @@ figure {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-10%);
+    transform: translateY(-30%);
   }
 }
 
@@ -228,8 +228,8 @@ figure {
   right: 0;
   display: block;
   z-index: -50;
-  animation: move-stars 20s linear infinite;
-  -webkit-animation: move-stars 20s linear infinite;
+  animation: move-stars 8s linear infinite;
+  -webkit-animation: move-stars 8s linear infinite;
 }
 
 .stars:nth-child(1) {
